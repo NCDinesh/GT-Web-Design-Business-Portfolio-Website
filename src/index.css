@@ -1,0 +1,14 @@
+:root{
+  --dark-color: #2B2D42;
+  --red-color:#D80032;
+  --blue-color: #41EAD4;
+  --light-color: #FEFEFE;
+
+  --red-hover-color:#be0732;
+  --blue-hover-color: #6af3e1;
+
+}
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
