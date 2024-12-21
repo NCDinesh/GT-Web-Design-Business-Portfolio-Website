@@ -31,10 +31,6 @@
   color: var(--light-color);
 }
 
-.desktop-nav .menu-items li:nth-last-of-type(1){
-  /* margin-right: 0; */
-}
-
 .desktop-nav .menu-items li a.active::after{
   content: "";
   height: 3px;
@@ -46,3 +42,20 @@
 
 }
 
+/* Animation */
+.desktop-nav{
+  animation:fadeDown 1000ms forwards ;
+  opacity: 0;
+}
+
+@keyframes fadeDown{
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

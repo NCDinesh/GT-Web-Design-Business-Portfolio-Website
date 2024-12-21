@@ -72,3 +72,51 @@ margin-right: 20px;
   top: 180px;
   left: 480px;
 }
+
+.hero-container .left{
+  flex: 1;
+}
+
+
+/* Animation */
+.hero-container .left p{
+  opacity: 0;
+  animation: fadeIn 800ms forwards;
+  animation-delay: 400ms;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+.hero-container .left h1{
+  opacity: 0;
+  animation: fadeToRight 800ms forwards;
+  animation-delay: 800ms;
+}
+
+@keyframes fadeToRight{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero-container .left .btn:nth-of-type(1){
+  animation: fadeIn 1000ms forwards;
+  opacity: 0;
+  animation-delay: 1400ms;
+}
+
+.hero-container .left .btn:nth-of-type(2){
+  animation: fadeIn 1000ms forwards;
+  opacity: 0;
+  animation-delay: 1600ms;
+}

@@ -37,4 +37,14 @@ a.btn.cyan{
 
 a{
   text-decoration: none;
+  transition: background-color 400ms;
+}
+
+a.btn:hover{
+  background-color: var(--red-hover-color);
+
+}
+
+a.btn.cyan:hover{
+  background-color: var(--blue-hover-color);
 }
