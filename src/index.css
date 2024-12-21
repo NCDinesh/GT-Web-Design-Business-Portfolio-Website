@@ -29,3 +29,12 @@ a.btn{
   border-radius: 24px;
   padding: 14px 30px;
 }
+
+a.btn.cyan{
+  color: var(--dark-color);
+  background-color: var(--blue-color);
+}
+
+a{
+  text-decoration: none;
+}

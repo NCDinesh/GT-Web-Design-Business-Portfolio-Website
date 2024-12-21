@@ -1,0 +1,74 @@
+.hero-container{
+  height:100vh ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-bg{
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+
+}
+
+
+.hero-container .left p{
+color: var(--dark-color);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+}
+
+.hero-container .left h1{
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 8px 0 28px 0;
+}
+
+.hero-container .left h1 span{
+  color: var(--red-color);
+}
+
+.hero-container a{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+margin-right: 20px;
+}
+
+.hero-container .btn{
+  color: var(--light-color)
+}
+
+/* .hero-container .btn.cyan{
+  color: var(--dark-color);
+  background-color: var(--blue-color);
+} */
+
+.hero-container .right{
+  padding-right: 30px;
+}
+
+
+
+.hero-container .polygon1{
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+  left: 240px;
+}
+
+.hero-container .polygon2{
+  position: absolute;
+  z-index: -1;
+  top: 180px;
+  left: 480px;
+}

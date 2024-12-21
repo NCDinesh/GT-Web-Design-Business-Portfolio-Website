@@ -8,7 +8,7 @@
   padding-right: 0;
   position: fixed;
   z-index: 200;
-  width: calc(1152px - 100px);
+  width: calc(1152px - 200px);
   top: 28px
 }
 
@@ -32,7 +32,7 @@
 }
 
 .desktop-nav .menu-items li:nth-last-of-type(1){
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .desktop-nav .menu-items li a.active::after{
@@ -45,3 +45,4 @@
   bottom: -14px;
 
 }
+

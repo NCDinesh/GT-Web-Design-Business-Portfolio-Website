@@ -4,6 +4,7 @@ import heroimage from "../../assets/heroimage.svg";
 import polygon1 from "../../assets/polygon1.svg";
 import polygon2 from "../../assets/polygon2.svg";
 import bg from "../../assets/bg.svg";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
             Get Started
           </a>
           <a href="#" className="btn cyan">
-            Get Started
+            Learn More
           </a>
         </div>
 
@@ -27,7 +28,7 @@ const Header = () => {
           <img src={heroimage} alt="" />
         </div>
 
-        <img src={bg} alt="" />
+        <img className="hero-bg" src={bg} alt="" />
 
         <div className="polygon-container">
           <img src={polygon1} className="polygon1" alt="" />
