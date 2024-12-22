@@ -1,37 +1,19 @@
-.brands-section{
-  margin-top: 100px;
+.section.brand{
   border-radius: 24px;
   box-shadow: 0px 4px 16px rgba(0, 0,0,0.12);
   padding: 32px 50px;
 }
 
-.brands-section h2{
-text-align: center;
-color: black;
-font-family: "Montserrat",sans-serif;
-font-size: 32px;
-font-weight: 800;
-position: relative;
-}
 
-.brands-section h2::after{
-  content: "";
-  width: 43px;
-  height: 3px;
-  background-color: var(--red-color);
-  position: absolute;
-  top: 40px;
- transform: translateX(-43px);
 
-}
 
-.brands-section .brand-container{
+
+.section.brand .brand-container{
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
   align-items: center;
 }
 
-.brands-section .brand-container img{
+.section.brand .brand-container img{
   height: 32px;
 }

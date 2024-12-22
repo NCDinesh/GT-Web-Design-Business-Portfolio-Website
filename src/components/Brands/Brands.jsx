@@ -10,7 +10,7 @@ const Brands = () => {
   return (
     <>
       <div className="wrapper">
-        <div className="brands-section">
+        <div className="section brand">
           <h2>Our Clients</h2>
           <div className="brand-container">
             <img src={Microsoft} alt="" />

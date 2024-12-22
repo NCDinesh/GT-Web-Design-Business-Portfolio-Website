@@ -1,0 +1,10 @@
+.about-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  
+}
+
+.about-container .left{
+  width: 571px;
+}
