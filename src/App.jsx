@@ -7,6 +7,7 @@ import Brands from "./components/Brands/Brands";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Projects from "./components/Projects/Projects";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutUs></AboutUs>
       <Projects></Projects>
       <Testimonials></Testimonials>
+      <Contact></Contact>
     </>
   );
 }
