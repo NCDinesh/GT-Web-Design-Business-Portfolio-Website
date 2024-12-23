@@ -80,3 +80,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 32px; /* 200% */
 }
+
+html {
+  scroll-padding-top: 100px; /* Adjust this value to match the height of your navbar */
+  scroll-behavior: smooth;
+}

@@ -65,11 +65,6 @@ padding: 0px;
 .footer p{
   color: var(--light-color);
   text-align: center;
-  transform: translateX(-38px);
   margin-top: 45px;
-}
-
-.footer .info{
-  transform: translateX(-5px);
 }
 

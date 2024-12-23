@@ -9,7 +9,8 @@
   position: fixed;
   z-index: 200;
   width: calc(1152px - 200px);
-  top: 28px
+  top: 28px;
+  height:50px
 }
 
 .menu-items{
@@ -31,7 +32,7 @@
   color: var(--light-color);
 }
 
-.desktop-nav .menu-items li a.active::after{
+/* .desktop-nav .menu-items li a.active::after{
   content: "";
   height: 3px;
   position: absolute;
@@ -40,7 +41,7 @@
   left: 0;
   bottom: -14px;
 
-}
+} */
 
 /* Animation */
 .desktop-nav{

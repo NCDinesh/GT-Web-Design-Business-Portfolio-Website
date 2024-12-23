@@ -25,7 +25,7 @@ const Testimonials = () => {
 
   return (
     <div className="wrapper">
-      <div className="section testimonials">
+      <div className="section testimonials" id="testimonials">
         <h2>Testimonials</h2>
         <div className="glider">
           {/* Slide 1 */}

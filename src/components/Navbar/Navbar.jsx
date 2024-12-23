@@ -13,21 +13,19 @@ const Navbar = () => {
 
       <ul className="menu-items">
         <li>
-          <a href="#" className="active">
-            About
-          </a>
+          <a href="#about">About</a>
         </li>
 
         <li>
-          <a href="#"> Our Projects </a>
+          <a href="#projects"> Our Projects </a>
         </li>
 
         <li>
-          <a href="#"> Testimonials </a>
+          <a href="#testimonials"> Testimonials </a>
         </li>
 
         <li>
-          <a href="#"> Contact </a>
+          <a href="#contact"> Contact </a>
         </li>
 
         <li>

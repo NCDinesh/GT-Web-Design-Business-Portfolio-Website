@@ -10,8 +10,8 @@ import project6 from "../../assets/project6.png";
 const Projects = () => {
   return (
     <>
-      <div className="wrapper">
-        <div className="section projects">
+      <div className="section projects" id="projects">
+        <div className="wrapper">
           <h2>Our Projects</h2>
           <div className="project-container">
             <img src={project1} alt="" />

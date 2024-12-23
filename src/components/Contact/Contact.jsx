@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div className="wrapper">
-        <div className="section contact">
+        <div className="section contact" id="contact">
           <h2>Contact Us</h2>
           <form action="#">
             <div className="group">
