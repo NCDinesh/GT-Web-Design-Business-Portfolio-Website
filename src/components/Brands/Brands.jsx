@@ -13,11 +13,16 @@ const Brands = () => {
         <div className="section brand">
           <h2>Our Clients</h2>
           <div className="brand-container">
-            <img src={Microsoft} alt="" />
-            <img src={Google} alt="" />
-            <img src={Netflix} alt="" />
-            <img src={Unity} alt="" />
-            <img src={Amazon} alt="" />
+            <div className="brand1">
+              <img src={Microsoft} alt="" />
+              <img src={Google} alt="" />
+              <img src={Netflix} alt="" />
+            </div>
+
+            <div className="brand2">
+              <img src={Unity} alt="" />
+              <img src={Amazon} alt="" />
+            </div>
           </div>
         </div>
       </div>

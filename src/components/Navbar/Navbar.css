@@ -10,7 +10,8 @@
   z-index: 200;
   width: calc(1152px - 200px);
   top: 28px;
-  height:50px
+  height:50px;
+  align-items: center;
 }
 
 .menu-items{
@@ -32,6 +33,9 @@
   color: var(--light-color);
 }
 
+.desktop-nav .menu-icon{
+  display: none;
+}
 /* .desktop-nav .menu-items li a.active::after{
   content: "";
   height: 3px;
@@ -59,4 +63,24 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* mobile version */
+@media(max-width:650px){
+  .desktop-nav .menu-items{
+    display: none;
+  }
+
+  .desktop-nav{
+    width: calc(100% - 16px);
+    margin-left: 8px;
+    padding: 4px 30px;
+  }
+
+  .desktop-nav .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+
+
 }

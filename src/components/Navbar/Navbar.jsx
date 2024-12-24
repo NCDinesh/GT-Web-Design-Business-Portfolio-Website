@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
+import menuicon from "../../assets/Vector.png";
+
 const Navbar = () => {
   return (
     <div className="desktop-nav">
@@ -9,6 +11,10 @@ const Navbar = () => {
         <a href="#">
           <img src={logo} alt="" />
         </a>
+      </div>
+
+      <div className="menu-icon">
+        <img src={menuicon} alt="" />
       </div>
 
       <ul className="menu-items">

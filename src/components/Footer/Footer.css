@@ -68,3 +68,15 @@ padding: 0px;
   margin-top: 45px;
 }
 
+/* Mobile Version */
+
+@media screen and (max-width: 650px) {
+ .section.footer{
+    flex-direction: column;
+  }
+
+  .section.footer .list-container{
+    flex-direction: column;
+  }
+}
+

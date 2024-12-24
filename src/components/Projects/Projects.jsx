@@ -18,8 +18,8 @@ const Projects = () => {
             <img src={project2} alt="" />
             <img src={project3} alt="" />
             <img src={project4} alt="" />
-            <img src={project5} alt="" />
-            <img src={project6} alt="" />
+            <img src={project5} alt="" className="hide" />
+            <img src={project6} alt="" className="hide" />
           </div>
 
           <a href="#" className="btn cyan">

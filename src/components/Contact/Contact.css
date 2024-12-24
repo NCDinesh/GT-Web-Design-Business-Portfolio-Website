@@ -13,3 +13,6 @@ margin-bottom: 36px;
   display: flex;
   gap: 32px;
 }
+textarea{
+  margin-bottom: 0;
+}

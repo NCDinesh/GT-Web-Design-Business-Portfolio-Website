@@ -66,3 +66,11 @@ margin-top: 18px;
   align-items: center;
   justify-content: center;
 }
+
+
+/* Mobile Version */
+@media(max-width:650px){
+.container-testimonials{
+  flex-direction: column; 
+}
+}
