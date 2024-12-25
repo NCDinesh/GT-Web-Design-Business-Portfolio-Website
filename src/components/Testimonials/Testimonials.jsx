@@ -80,13 +80,15 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        {/* Arrows */}
-        <button className="slider-prev">
-          <img src={leftarrow} alt="Previous" />
-        </button>
-        <button className="slider-next">
-          <img src={rightarrow} alt="Next" />
-        </button>
+
+        <div className="slidebutton">
+          <button className="slider-prev">
+            <img src={leftarrow} alt="Previous" />
+          </button>
+          <button className="slider-next">
+            <img src={rightarrow} alt="Next" />
+          </button>
+        </div>
       </div>
     </div>
   );

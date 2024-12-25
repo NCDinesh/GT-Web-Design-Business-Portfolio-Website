@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p>This Website was designed by NC Dinesh</p>{" "}
+        <p>This Website was designed by NC Dinesh</p>
       </div>
     </>
   );

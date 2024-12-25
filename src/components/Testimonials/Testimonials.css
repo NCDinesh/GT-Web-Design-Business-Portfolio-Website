@@ -1,5 +1,4 @@
 .section.testimonials{
-  width: 800px;
   margin: 0px auto;
   margin-top: 100px;
   position: relative;
@@ -9,12 +8,26 @@
   display: flex;
   justify-content: space-between;
   padding: 8px 24px;
-
 }
 
 .container-testimonials .left{
-  width: 486px;
+  flex: 2;
 }
+
+.container-testimonials .right{
+  flex: 1;
+  justify-content: center;
+
+}
+
+.container-testimonials .right img{
+  display: block; 
+margin: 0px auto;
+
+}
+
+
+
 
 .container-testimonials .left .testimonialtext{
 background-color: var(--dark-color);
@@ -34,6 +47,7 @@ margin-top: 18px;
 
 .container-testimonials .left .testimonialtext span{
   font-weight: 400;
+  overflow-wrap: break-word; 
 }
 
 .section.testimonials .slider-prev{
@@ -58,8 +72,6 @@ margin-top: 18px;
 .slider-next {
   background: none; /* Remove default button background */
   border: none; /* Remove default button border */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
   outline: none; /* Remove focus outline */
   cursor: pointer; /* Add a pointer cursor for better UX */
   display: flex;
@@ -73,4 +85,37 @@ margin-top: 18px;
 .container-testimonials{
   flex-direction: column; 
 }
+
+.section.testimonials .slider-prev,
+.section.testimonials .slider-next {
+  position: static; /* Remove absolute positioning */
+  margin: 16px 8px; /* Add margin for spacing */
+  display: inline-block; /* Align buttons horizontally */
+}
+
+.container-testimonials .right{
+  /* width: 151px; */
+  order: 1;
+  display: flex;
+  align-items: center;
+
+
+}
+
+
+
+.container-testimonials{
+  text-align: center;
+  padding: 0;
+}
+
+
+.container-testimonials .left{
+  order: 2;
+}
+
+.section.testimonials .slidebutton{
+margin-left: 28%
+}
+
 }

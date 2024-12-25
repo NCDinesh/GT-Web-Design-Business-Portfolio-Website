@@ -11,8 +11,19 @@ margin-bottom: 36px;
 
 .section.contact .group{
   display: flex;
+
   gap: 32px;
 }
+
 textarea{
   margin-bottom: 0;
 }
+
+@media(max-width:650px){
+
+  .section.contact .group{
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
