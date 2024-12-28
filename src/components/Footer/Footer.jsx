@@ -49,8 +49,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <p className="para">This Website was designed by NC Dinesh</p>
         </div>
-        <p>This Website was designed by NC Dinesh</p>
       </div>
     </>
   );

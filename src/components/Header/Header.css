@@ -187,6 +187,41 @@ margin-right: 20px;
    font-size: 18px;
    margin-bottom: 0;
   }
+ 
+}
 
-  
+/* Medium Devices */
+@media(max-width:1200px){
+  .hero-container .polygon1{
+    left: 50px;
+    top: 90px;
+  }
+
+  .hero-container .polygon2{
+    left: 300px;
+    top: 250px;
+  }
+
+  .hero-container .left{
+    padding-left: 30px;
+  }
+
+  .hero-container .left h1{
+    font-size: 30px;
+  }
+
+  .hero-container .left p{
+   font-size: 18px;
+   margin-bottom: 0;
+  }
+
+  .hero-container a.btn.cyan{
+    margin-top: 0px;
+  }
+
+  @media(max-width:720px){
+    .hero-container .right{
+      display: none;
+    }
+  }
 }

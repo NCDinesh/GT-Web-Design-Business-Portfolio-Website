@@ -115,7 +115,10 @@ margin-top: 18px;
 }
 
 .section.testimonials .slidebutton{
-margin-left: 28%
+  display: flex;
+margin-left: 27%;
+
+
 }
 
 }
