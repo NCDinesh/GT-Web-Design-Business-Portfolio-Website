@@ -79,8 +79,26 @@ margin-top: 18px;
   justify-content: center;
 }
 
+/* Medium Device */
+@media(max-width:1200px){
+  .section.testimonials .slider-prev,
+.section.testimonials .slider-next {
+  position: static; 
+  margin: 16px 8px; 
+  display: inline-block; 
+}
+
+.section.testimonials .slidebutton {
+  display: flex;
+  justify-content: center; 
+  margin-left: 0; 
+}
+
+}
+
 
 /* Mobile Version */
+
 @media(max-width:650px){
 .container-testimonials{
   flex-direction: column; 
@@ -114,11 +132,5 @@ margin-top: 18px;
   order: 2;
 }
 
-.section.testimonials .slidebutton{
-  display: flex;
-margin-left: 27%;
-
-
-}
 
 }
