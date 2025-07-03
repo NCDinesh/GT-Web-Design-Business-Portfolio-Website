@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logofooter from "../../assets/Logofooter.svg";
-import facebook from "../../assets/facebook.png";
+import facebook from "../../assets/Facebook.png";
 import insta from "../../assets/insta.png";
 import twitter from "../../assets/twitter.png";
 
